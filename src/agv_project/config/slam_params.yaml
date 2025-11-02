@@ -1,0 +1,11 @@
+# Parameters for SLAM Toolbox
+slam_toolbox:
+  ros__parameters:
+  
+    use_sim_time: true
+
+    # defaults
+    solver_plugin: "solver_plugins::SolveCeres"
+    ceres_linear_solver: "SPARSE_NORMAL_CHOLESKY"
+    map_update_interval: 1.0 
+    resolution: 0.05 

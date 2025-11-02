@@ -1,0 +1,4 @@
+[console_scripts]
+commander = agv_project.goal_sender_node:main
+goal_sender_node = agv_project.goal_sender_node:main
+
